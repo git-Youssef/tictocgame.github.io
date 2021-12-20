@@ -1,0 +1,78 @@
+/* Variabes */
+/* Mixin's */
+body {
+  background: #050c06;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  height: 100%;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 30px auto;
+  color: #fff;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 2.6em;
+  text-transform: uppercase;
+}
+
+.tictac_wrapper {
+  width: 400px;
+  height: 400px;
+
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tictac_wrapper div {
+  width: calc(100% / 3 - 2px);
+  height: calc(100% / 3);
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+}
+.tictac_wrapper div.draw{
+  background-color: red;
+  
+} 
+.modal-content {
+  background-image: url("popup_backgron.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 300px;
+}
+
+
+h4 {
+  font-size: 18px;
+  position: absolute;
+  top: calc(50% + 35px);
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+h4 span{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#replay{
+  color: black;
+    background-color: white;
+    margin: 30px;
+    padding: 6px 30px;
+}
